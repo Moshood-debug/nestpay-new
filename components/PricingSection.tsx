@@ -34,7 +34,7 @@ export default function PricingSection() {
   ];
 
   return (
-    <section className=" bg-[#0c1526] pt-17  pb-5  font-sans flex flex-col justify-center mt-18">
+    <section className=" bg-[#0c1526] p-17  font-sans flex flex-col justify-center mt-18">
       <div className=" container mx-auto px-6 py-20 lg:py-15">
         <div className="mb-12">
           <div className="flex items-center gap-2 mb-4">

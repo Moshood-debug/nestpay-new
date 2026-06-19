@@ -35,8 +35,8 @@ export default function Footer() {
               <Image
                 src={"/img/logo2.svg"}
                 alt="logo"
-                width={150}
-                height={150}
+                width={140}
+                height={140}
               />
             </div>
 
