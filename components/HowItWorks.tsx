@@ -40,7 +40,7 @@ const HowItWorks = () => {
             </span>
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-50 tracking-tight mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold  tracking-tight mb-6">
             Money in motion, start to finish
           </h2>
 
