@@ -1,4 +1,5 @@
 import { Smartphone } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const navLinks = ["Product", "Corridors", "Pricing", "Company"];
@@ -6,12 +7,12 @@ const navLinks = ["Product", "Corridors", "Pricing", "Company"];
 const Navbar = () => {
   return (
     <nav className="container mx-auto flex h-20 items-center justify-between px-4">
-      <div className="flex items-center gap-10">
+      <div className="flex items-center gap-8">
         <Link
           href="/"
           className="text-2xl font-black tracking-tight text-[#142F32] dark:text-[#E3FFCC]"
         >
-          EcoRide
+          <Image src={"/img/logo2.svg"} alt="logo" width={120} height={120} />
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
@@ -27,7 +28,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* CTA Button */}
       <div className="flex items-center gap-8">
         <Link href="/" className="text-[15px] font-bold">
           Sign In

@@ -8,13 +8,13 @@ const WhyNestPaySection = () => {
         {/* Header Section */}
         <div className="mb-14">
           <div className="flex items-center gap-4 mb-6">
-            <div className="w-8 h-[1px] bg-blue-700"></div>
+            <div className="w-8 h-[1px] bg-blue-600"></div>
             <span className="text-blue-500 text-xs font-bold tracking-widest uppercase">
               Why NestPay
             </span>
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-50 mb-5">
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-5">
             Built for how MSMEs really trade
           </h2>
 
@@ -85,7 +85,7 @@ const WhyNestPaySection = () => {
                 <div className="w-8 h-8 rounded-full bg-blue-800 border-2 border-[#1c1836] -ml-3 relative z-20"></div>
                 <div className="w-8 h-8 rounded-full bg-red-800 border-2 border-[#1c1836] -ml-3 relative z-10"></div>
               </div>
-              <h3 className="text-LG font-bold text-slate-50 mb-2 tracking-tight">
+              <h3 className="text-LG font-bold  mb-2 tracking-tight">
                 30+ corridors
               </h3>
               <p className="text-slate-400 text-[14px]">
@@ -100,7 +100,7 @@ const WhyNestPaySection = () => {
               <User size={24} className="text-red-100" strokeWidth={1.5} />
             </div>
             <div>
-              <h3 className="text-LG font-bold text-slate-50 mb-2 tracking-tight">
+              <h3 className="text-LG font-bold  mb-2 tracking-tight">
                 KYC built for MSMEs
               </h3>
               <p className="text-slate-400 text-[14px] leading-relaxed">

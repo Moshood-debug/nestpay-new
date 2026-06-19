@@ -8,6 +8,8 @@ import {
   Zap,
   ArrowRight,
 } from "lucide-react";
+import { BiLogoPlayStore } from "react-icons/bi";
+import { FaApple } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -36,7 +38,7 @@ export default function Hero() {
                 href="#"
                 className="flex items-center gap-3 rounded-xl border border-slate-700 px-6 py-4 text-white transition hover:border-slate-500"
               >
-                <Apple size={22} />
+                <FaApple size={22} />
                 <span className="font-medium">Get on Apple</span>
               </Link>
 
@@ -44,7 +46,7 @@ export default function Hero() {
                 href="#"
                 className="flex items-center gap-3 rounded-xl border border-slate-700 px-6 py-4 text-white transition hover:border-slate-500"
               >
-                <Play size={20} />
+                <BiLogoPlayStore size={22} />
                 <span className="font-medium">Get on Android</span>
               </Link>
             </div>

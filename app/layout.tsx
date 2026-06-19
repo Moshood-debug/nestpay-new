@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Familjen_Grotesk } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const familjenGrotesk = Familjen_Grotesk({
   variable: "--font-familjen-grotesk",
@@ -25,10 +26,11 @@ export default function RootLayout({
       lang="en"
       className={`${familjenGrotesk.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col mb-5">
+      <body className="min-h-full flex flex-col ">
         {" "}
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
