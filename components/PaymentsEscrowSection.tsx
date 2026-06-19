@@ -39,8 +39,8 @@ const PaymentsEscrowSection = () => {
   ];
 
   return (
-    <section className="     flex flex-col justify-center mb-35 ">
-      <div className=" container mx-auto px-6 py-20 lg:py-15">
+    <section className="flex flex-col justify-center mb-16 md:mb-35">
+      <div className="container mx-auto px-6 py-12 md:py-20 lg:py-15">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           {/* Left Content - Text & List */}
           <div>

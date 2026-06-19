@@ -34,9 +34,9 @@ export default function PricingSection() {
   ];
 
   return (
-    <section className=" bg-[#0c1526] p-17  font-sans flex flex-col justify-center mt-18">
-      <div className=" container mx-auto px-6 py-20 lg:py-15">
-        <div className="mb-12">
+    <section className="bg-[#0c1526] px- py-12 md:p-17 font-sans flex flex-col justify-center mt-10 md:mt-18">
+      <div className="container mx-auto px-4 py-10 md:px-6 md:py-20 lg:py-15">
+        <div className="mb-10 md:mb-12 flex flex-col items-start text-left">
           <div className="flex items-center gap-2 mb-4">
             <div className="w-8 h-[1px] bg-blue-600"></div>
             <span className="text-blue-500 text-xs font-bold tracking-widest uppercase">
@@ -44,11 +44,11 @@ export default function PricingSection() {
             </span>
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-bold  tracking-tight mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-4 md:mb-6">
             No surprises. Just honest fees.
           </h2>
 
-          <p className="text-slate-400 text-lg leading-relaxed mb-10 max-w-md">
+          <p className="text-slate-400 text-base md:text-lg leading-relaxed mb-8 md:mb-10 max-w-md">
             The price you see is the price your supplier gets. No spreads, no
             monthly minimums, no hidden charges.
           </p>
@@ -59,25 +59,25 @@ export default function PricingSection() {
           {cards.map((card) => (
             <div
               key={card.id}
-              className="bg-[#111c35] border border-[#1e2d4a] rounded-2xl p-8 flex flex-col items-start justify-between min-h-[220px] "
+              className="bg-[#111c35] border border-[#1e2d4a] rounded-2xl p-6 md:p-8 flex flex-col items-start justify-between min-h-[180px] md:min-h-[220px]"
             >
               {/* Icon Container */}
-              <div className="p-3 bg-[#182647] rounded-xl mb-6 flex items-center justify-center">
+              <div className="p-2.5 md:p-3 bg-[#182647] rounded-xl mb-4 md:mb-6 flex items-center justify-center">
                 {card.icon}
               </div>
 
               {/* Pricing Context */}
               <div className="w-full mt-auto">
-                <div className="flex items-baseline gap-2 mb-3">
-                  <span className="text-3xl md:text-4xl font-bold text-[#f0f4f8]">
+                <div className="flex items-baseline gap-2 mb-2 md:mb-3">
+                  <span className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#f0f4f8]">
                     {card.amount}
                   </span>
-                  <span className="text-sm font-semibold text-[#edf2f7]">
+                  <span className="text-xs md:text-sm font-semibold text-[#edf2f7]">
                     {card.label}
                   </span>
                 </div>
 
-                <p className="text-[#8da2cb] text-sm md:text-base leading-snug">
+                <p className="text-[#8da2cb] text-xs md:text-sm lg:text-base leading-snug">
                   {card.description}
                 </p>
               </div>

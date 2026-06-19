@@ -15,43 +15,45 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden ">
       <div className="container mx-auto px-6 py-20 lg:py-15">
-        <div className="grid items-center gap-16 lg:grid-cols-2">
-          <div>
-            <div className="mb-8 flex items-center gap-3">
+        <div className="grid items-center gap-12 md:grid-cols-2 lg:gap-16">
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
+            <div className="mb-8 flex flex-col items-center gap-3 md:flex-row">
               <div className="h-px w-10 bg-blue-600" />
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-blue-500">
                 The cross-border money app for African business
               </span>
             </div>
 
-            <h1 className="max-w-xl text-5xl font-bold leading-none md:text-7xl">
+            <h1 className="max-w-xl text-4xl font-bold leading-none md:text-5xl lg:text-7xl">
               Trade without borders
             </h1>
 
-            <p className="mt-8 max-w-lg text-lg leading-relaxed text-slate-400">
+            <p className="mt-6 max-w-lg text-base leading-relaxed text-slate-400 lg:mt-8 lg:text-lg">
               Hold every currency you trade in, convert at honest rates, and pay
               suppliers worldwide in minutes — all from one app in your pocket.
             </p>
 
-            <div className="mt-10 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-row justify-center gap-3 md:justify-start lg:mt-10">
               <Link
                 href="#"
-                className="flex items-center gap-3 rounded-xl border border-slate-700 px-6 py-4 text-white transition hover:border-slate-500"
+                className="flex items-center gap-2 rounded-xl border border-slate-700 px-4 py-2.5 text-sm text-white transition hover:border-slate-500 lg:gap-3 lg:px-6 lg:py-4 lg:text-base"
               >
-                <FaApple size={22} />
+                <FaApple size={18} className="lg:hidden" />
+                <FaApple size={22} className="hidden lg:block" />
                 <span className="font-medium">Get on Apple</span>
               </Link>
 
               <Link
                 href="#"
-                className="flex items-center gap-3 rounded-xl border border-slate-700 px-6 py-4 text-white transition hover:border-slate-500"
+                className="flex items-center gap-2 rounded-xl border border-slate-700 px-4 py-2.5 text-sm text-white transition hover:border-slate-500 lg:gap-3 lg:px-6 lg:py-4 lg:text-base"
               >
-                <BiLogoPlayStore size={22} />
+                <BiLogoPlayStore size={18} className="lg:hidden" />
+                <BiLogoPlayStore size={22} className="hidden lg:block" />
                 <span className="font-medium">Get on Android</span>
               </Link>
             </div>
 
-            <div className="mt-10 flex items-center gap-4">
+            <div className="mt-8 flex flex-col items-center gap-4 md:flex-row md:items-center lg:mt-10">
               <div className="flex -space-x-5">
                 {[1, 2, 3, 4, 5].map((item) => (
                   <div
@@ -67,7 +69,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="flex items-center justify-center p-4 font-sans relative">
+          <div className="hidden md:flex items-start justify-center p-4 font-sans relative md:scale-[0.72] md:origin-top lg:scale-100">
             <div className="relative w-full max-w-96 h-190 bg-[#0c1527] rounded-[3rem] shadow-2xl border-6 border-gray-950 overflow-hidden">
               <div className="flex justify-center pt-5">
                 <div className="bg-gray-950 rounded-full w-30 h-8 "></div>

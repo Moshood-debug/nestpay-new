@@ -27,9 +27,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="  antialiased border-t border-gray-800">
-      <div className="  pt-16 pb-8 container mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 pb-16">
+    <footer className="antialiased border-t border-gray-800">
+      <div className="pt-12 pb-8 md:pt-16 container mx-auto px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 md:gap-12 pb-12 md:pb-16">
           <div className="lg:col-span-5 flex flex-col items-start gap-6">
             <div className="flex items-center gap-2.5">
               <Image
@@ -72,7 +72,7 @@ export default function Footer() {
           </div>
 
           {/* Navigation Links Columns */}
-          <div className="lg:col-span-7 grid grid-cols-3 gap-6 md:gap-8">
+          <div className="lg:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-8 md:gap-8">
             {/* Product Links */}
             <div>
               <h4 className="text-xs font-bold uppercase tracking-wider text-[#78cef0] mb-4">
@@ -134,7 +134,7 @@ export default function Footer() {
       </div>
       <div className="border-t border-gray-800"></div>
 
-      <div className="pt-8 pb-8 container mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-xs ">
+      <div className="pt-6 pb-8 container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-center md:text-left text-gray-400">
         <div>&copy; 2026 NestPay. All rights reserved.</div>
         <div className="tracking-wide">
           Made for businesses trading across borders.

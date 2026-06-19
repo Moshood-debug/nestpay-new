@@ -30,8 +30,8 @@ const FeatureSection = () => {
   ];
 
   return (
-    <section className="  pt-17  pb-5  font-sans flex flex-col justify-center mt-18">
-      <div className=" container mx-auto px-6 py-20 lg:py-15">
+    <section className="pt-12 md:pt-17 pb-5 font-sans flex flex-col justify-center mt-10 md:mt-18">
+      <div className="container mx-auto px-6 py-12 md:py-20 lg:py-15">
         <div className="mb-24">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-8 h-[1px] bg-blue-600"></div>

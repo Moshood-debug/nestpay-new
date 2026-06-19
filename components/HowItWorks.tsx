@@ -30,8 +30,8 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className=" bg-[#0c1527] py-20   font-sans flex flex-col justify-center mt-18">
-      <div className=" container mx-auto px-6 py-20 lg:py-15">
+    <section className="bg-[#0c1527] py-12 md:py-20 font-sans flex flex-col justify-center mt-10 md:mt-18">
+      <div className="container mx-auto px-6 py-12 md:py-20 lg:py-15">
         <div className="mb-20">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-8 h-[1px] bg-blue-600"></div>

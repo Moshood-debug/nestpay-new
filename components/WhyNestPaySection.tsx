@@ -3,7 +3,7 @@ import { BadgePercent, ShieldCheck, Zap, Globe, User } from "lucide-react";
 
 const WhyNestPaySection = () => {
   return (
-    <section className=" bg-[#0c1526] py-28  px-6 md:px-16 lg:px-24  flex flex-col justify-center">
+    <section className="bg-[#0c1526] py-16 md:py-28 px-6 md:px-16 lg:px-24 flex flex-col justify-center">
       <div className="container mx-auto w-full">
         {/* Header Section */}
         <div className="mb-14">

@@ -25,19 +25,23 @@ const StatsBanner = () => {
   ];
 
   return (
-    <section className=" container mx-auto px-6 py-20 lg:py-15  mt-18">
-      <div className="  p-15 bg-[#0c1527] border border-slate-800 rounded-2xl  flex flex-col md:flex-row justify-between items-center gap-10 md:gap-4 shadow-xl">
-        {stats.map((stat) => (
-          <div
-            key={stat.id}
-            className="flex flex-col items-start w-full md:w-auto text-left"
-          >
-            <h3 className="text-5xl font-bold text-slate-50 tracking-tight mb-2">
-              {stat.value}
-            </h3>
-            <p className="text-[15px] font-medium ">{stat.label}</p>
-          </div>
-        ))}
+    <section className="container mx-auto px-4 py-12 lg:py-15 mt-8 lg:mt-18">
+      <div className="bg-[#0c1527] border border-slate-800 rounded-2xl shadow-xl px-6 py-10 md:px-10 md:py-12 lg:p-15">
+        <div className="grid grid-cols-2 gap-8 md:flex md:flex-row md:justify-between md:items-center md:gap-4">
+          {stats.map((stat, index) => (
+            <div
+              key={stat.id}
+              className={`flex flex-col items-center text-center md:items-start md:text-left w-full md:w-auto `}
+            >
+              <h3 className="text-3xl font-bold text-slate-50 tracking-tight mb-1 md:text-4xl lg:text-5xl lg:mb-2">
+                {stat.value}
+              </h3>
+              <p className="text-xs font-medium text-slate-400 md:text-sm lg:text-[15px] lg:text-slate-300">
+                {stat.label}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

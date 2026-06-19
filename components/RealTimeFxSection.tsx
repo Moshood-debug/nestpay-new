@@ -12,8 +12,8 @@ const RealTimeFxSection = () => {
   const chartBars = [25, 40, 35, 45, 40, 50, 45, 55, 50, 85];
 
   return (
-    <section className="    font-sans flex flex-col justify-center ">
-      <div className=" container mx-auto px-6 py-20 lg:py-15">
+    <section className="font-sans flex flex-col justify-center">
+      <div className="container mx-auto px-6 py-12 md:py-20 lg:py-15">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           {/* Left Content - Chart Card */}
           <div className="bg-[#131f37] border border-slate-800 rounded-2xl shadow-2xl p-4 md:p-6 w-full  mx-auto lg:mx-0">
