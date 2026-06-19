@@ -60,8 +60,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #070e1e;
+  --foreground: #dbe3f3;
 
   --font-satoshi: "Satoshi", sans-serif;
   --font-familjen: var(--font-familjen-grotesk), "Familjen Grotesk", sans-serif;
@@ -101,12 +101,12 @@
   --font-arial: var(--font-arial);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #070e1e;
     --foreground: #dbe3f3;
   }
-}
+} */
 
 /* ─── Base ───────────────────────────────────────────────────────────────── */
 body {
